@@ -28,6 +28,7 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/enf_fingerprinting_tool/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
